@@ -1,4 +1,11 @@
 (executable
- (name rust_ocaml_starter)
- (public_name rust-ocaml-starter)
- (modes exe object))
+ (name ocaml_bindings)
+ (modes object)
+ (libraries
+    TCB
+    semgrep.core_cli
+    semgrep.osemgrep_cli
+    lwt_platform.unix
+    tracing.unix
+ )
+)

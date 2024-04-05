@@ -1,10 +1,12 @@
 [package]
-name = "rust-ocaml-starter"
+name = "rsemgrep"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+libc = "0.2.153"
 ocaml = {git = "https://github.com/zshipko/ocaml-rs"}
 
 [build-dependencies]
 ocaml-build = {git = "https://github.com/zshipko/ocaml-rs", features=["dune"]}
+

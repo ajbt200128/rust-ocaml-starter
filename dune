@@ -1,1 +1,8 @@
-(dirs :standard \ target)
+ (env
+   (dev
+     (flags (-noautolink -w -6-30-52))))
+(dirs
+  lib
+  semgrep
+  src
+)

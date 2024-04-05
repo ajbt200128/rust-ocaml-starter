@@ -1,6 +1,6 @@
 (lang dune 3.0)
 
-(name rust-ocaml-starter)
+(name rsemgrep)
 
 (generate_opam_files true)
 
@@ -16,10 +16,11 @@
 (documentation https://url/to/documentation)
 
 (package
- (name rust-ocaml-starter)
+ (name rsemgrep)
  (synopsis "A short synopsis")
  (description "A longer description")
  (depends ocaml dune)
+  (allow_empty)
  (tags
   (topics "to describe" your project)))
 
